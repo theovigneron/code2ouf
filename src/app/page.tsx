@@ -9,9 +9,11 @@ export default function Home() {
     <div className={styles.wrapper}>
       <div className={styles.card}>
         <h1>🍽️</h1>
-        <h1 className={styles.title}> Découvrez HelloFresh avec -90€ sur la première commande !</h1>
+        <h1 className={styles.title}>
+          Découvrez HelloFresh avec -90€ sur la première commande&nbsp;!
+        </h1>        
         <p className={styles.description}>
-          Profitez de repas équilibrés, faciles à préparer, et livrés chez vous. Utilisez le code ci-dessous pour bénéficier de l'offre exclusive :
+          Profitez de repas équilibrés, faciles à préparer, et livrés chez vous. Utilisez le code ci-dessous pour bénéficier de l&apos;offre exclusive :
         </p>
         <div className={styles.codeBox}>
           <span className={styles.codeLabel}>CODE :</span>
