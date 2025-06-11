@@ -1,17 +1,9 @@
 "use client";
 
-import { useState } from "react";
 import styles from "./page.module.css";
 
 export default function Home() {
   const code = "HS-JBIXTK4BY";
-  const [copied, setCopied] = useState(false);
-
-  const copyCode = () => {
-    navigator.clipboard.writeText(code);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
 
   return (
     <div className={styles.wrapper}>
