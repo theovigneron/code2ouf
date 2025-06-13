@@ -24,14 +24,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://votre-domaine.com'),
+  metadataBase: new URL('https://www.code2ouf.fr/'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: "Code Hello Fresh 90 € | Offre Spéciale",
     description: "Profitez de -90€ sur votre première commande HelloFresh. Découvrez des recettes fraîches et délicieuses livrées chez vous.",
-    url: 'https://votre-domaine.com',
+    url: 'https://www.code2ouf.fr/',
     siteName: 'Code Hello Fresh',
     images: [
       {
