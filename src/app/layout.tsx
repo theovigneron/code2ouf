@@ -76,6 +76,18 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#ffffff" />
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17200470046"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-17200470046');
+            `,
+          }}
+        />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
