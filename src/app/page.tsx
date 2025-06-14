@@ -2,6 +2,12 @@
 
 import styles from "./page.module.css";
 
+declare global {
+  interface Window {
+    gtag_report_conversion?: (url: string) => void;
+  }
+}
+
 export default function Home() {
   const code = "HS-JBIXTK4BY";
 
@@ -22,7 +28,11 @@ export default function Home() {
         <button
           className={styles.button}
           onClick={() => {
-            window.location.href = "https://www.hellofresh.fr/pages/value-messaging-raf?c=HS-JBIXTK4BY";
+            if (typeof window !== "undefined" && window.gtag_report_conversion) {
+              window.gtag_report_conversion("https://www.hellofresh.fr/pages/value-messaging-raf?c=HS-JBIXTK4BY");
+            } else {
+              window.location.href = "https://www.hellofresh.fr/pages/value-messaging-raf?c=HS-JBIXTK4BY";
+            }
           }}
         >
           Utiliser l&apos;offre
