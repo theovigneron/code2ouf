@@ -28,11 +28,7 @@ export default function Home() {
         <button
           className={styles.button}
           onClick={() => {
-            if (typeof window !== "undefined" && window.gtag_report_conversion) {
-              window.gtag_report_conversion("https://www.hellofresh.fr/pages/value-messaging-raf?c=HS-JBIXTK4BY");
-            } else {
               window.location.href = "https://www.hellofresh.fr/pages/value-messaging-raf?c=HS-JBIXTK4BY";
-            }
           }}
         >
           Utiliser l&apos;offre
