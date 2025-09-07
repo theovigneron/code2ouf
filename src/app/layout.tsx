@@ -77,14 +77,14 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#ffffff" />
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17200470046"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17527991666"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'AW-17200470046');
+              gtag('config', 'AW-17527991666');
             `,
           }}
         />
@@ -98,7 +98,7 @@ export default function RootLayout({
                   }
                 };
                 gtag('event', 'conversion', {
-                    'send_to': 'AW-17200470046/LEB7CLientoaEJ6w6YlA',
+                    'send_to': 'AW-17527991666/LEB7CLientoaEJ6w6YlA',
                     'value': 1.0,
                     'currency': 'EUR',
                     'event_callback': callback
