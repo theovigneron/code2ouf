@@ -9,7 +9,7 @@ declare global {
 }
 
 export default function Home() {
-  const code = "HS-JBIXTK4BY";
+  const code = "HS-I5TSO8CBE";
 
   return (
     <div className={styles.wrapper}>
@@ -28,7 +28,7 @@ export default function Home() {
         <button
           className={styles.button}
           onClick={() => {
-              window.location.href = "https://www.hellofresh.fr/pages/value-messaging-raf?c=HS-JBIXTK4BY";
+              window.location.href = "https://www.hellofresh.fr/pages/value-messaging-raf?c=HS-I5TSO8CBE";
           }}
         >
           Utiliser l&apos;offre
