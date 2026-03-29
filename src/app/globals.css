@@ -1,7 +1,21 @@
+/* Dans globals.css */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary-green: #057A45;
+  --primary-hover: #5fa03e;
+  --accent-purple: rgba(155, 89, 182, 0.4);
+  --accent-green-glow: rgba(39, 174, 96, 0.4);
+  --bg-dark: #0a0a23;
+  --card-bg: rgba(0, 0, 0, 0.5);
+  --code-box-bg: #1f1f2e;
+  --code-tag-bg: #333;
+  --text-main: #ffffff;
+  --text-muted: #eeeeee;
+  --text-label: #cccccc;
+  --card-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+  --btn-shadow: 0 4px 15px rgba(122, 199, 79, 0.5);
 }
+
+/* Garde le reste du fichier globals.css tel quel */
 
 @media (prefers-color-scheme: dark) {
   :root {

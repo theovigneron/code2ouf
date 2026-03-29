@@ -9,12 +9,12 @@ declare global {
 }
 
 export default function Home() {
-  const code = "HS-I5TSO8CBE";
+  const code = "HS-10YXD21PT";
 
   return (
     <div className={styles.wrapper}>
       <div className={styles.card}>
-        <h1>🍽️</h1>
+        <img src="/title.png" alt="Logo Code2Ouf" />
         <h1 className={styles.title}>
           Découvrez HelloFresh avec -90€ sur la première commande&nbsp;!
         </h1>
@@ -28,7 +28,7 @@ export default function Home() {
         <button
           className={styles.button}
           onClick={() => {
-              window.location.href = "https://www.hellofresh.fr/pages/value-messaging-raf?c=HS-I5TSO8CBE";
+              window.location.href = "https://www.hellofresh.fr/pages/value-messaging-raf?c=HS-10YXD21PT";
           }}
         >
           Utiliser l&apos;offre

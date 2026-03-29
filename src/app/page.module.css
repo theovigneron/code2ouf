@@ -3,24 +3,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(circle at top left, rgba(155, 89, 182, 0.4), transparent 60%),
-              radial-gradient(circle at bottom right, rgba(39, 174, 96, 0.4), transparent 60%),
-              #0a0a23;
+  background: radial-gradient(circle at top left, var(--accent-purple), transparent 60%),
+              radial-gradient(circle at bottom right, var(--accent-green-glow), transparent 60%),
+              var(--bg-dark);
   padding: 2rem;
 }
 
 .card {
-  background: rgba(0, 0, 0, 0.5);
+  background: var(--card-bg);
   padding: 3rem 2rem;
   border-radius: 1.5rem;
   width: 100%;
-  max-width: 420px;
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+  max-width: 475px;
+  box-shadow: var(--card-shadow);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: var(--text-main);
+}
+
+.card > img {
+  width: 50%;
+  margin-bottom: 1rem;
 }
 
 .title {
@@ -33,14 +38,14 @@
   font-size: 1rem;
   margin-bottom: 2rem;
   line-height: 1.5;
-  color: #eeeeee;
+  color: var(--text-muted);
 }
 
 .codeBox {
   display: flex;
   gap: 0.5rem;
   align-items: center;
-  background: #1f1f2e;
+  background: var(--code-box-bg);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   margin-bottom: 2rem;
@@ -48,34 +53,33 @@
 
 .codeLabel {
   font-weight: bold;
-  color: #ccc;
+  color: var(--text-label);
 }
 
 .code {
   font-weight: bold;
-  background: #333;
+  background: var(--code-tag-bg);
   padding: 0.25rem 0.75rem;
   border-radius: 0.25rem;
-  color: #fff;
+  color: var(--text-main);
 }
 
 .button {
-  background-color: #057A45;
+  background-color: var(--primary-green);
   color: white;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem;
   border-radius: 0.5rem;
   text-decoration: none;
   font-weight: 600;
   transition: background 0.2s ease, transform 0.2s ease;
-  box-shadow: 0 4px 15px rgba(122, 199, 79, 0.5);
+  box-shadow: var(--btn-shadow);
   border: 0;
   width: 70%;
-  padding: 1rem;
   font-size: medium;
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: #5fa03e;
+  background-color: var(--primary-hover);
   transform: translateY(-2px);
 }

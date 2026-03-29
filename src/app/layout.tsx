@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   authors: [{ name: "Code2Ouf" }],
   creator: "Code2Ouf",
   publisher: "Code2Ouf",
+  icons: {
+    icon: '/logo.png', 
+    apple: '/logo.png',
+  },
   formatDetection: {
     email: false,
     address: false,
@@ -35,7 +39,7 @@ export const metadata: Metadata = {
     siteName: 'Code Hello Fresh',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/logo.png',
         width: 1200,
         height: 630,
         alt: 'HelloFresh - Offre Spéciale -90€',
@@ -48,7 +52,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Code Hello Fresh 90 € | Offre Spéciale",
     description: "Profitez de -90€ sur votre première commande HelloFresh. Découvrez des recettes fraîches et délicieuses livrées chez vous.",
-    images: ['/og-image.jpg'],
+    images: ['/logo.png'],
   },
   robots: {
     index: true,
@@ -74,40 +78,21 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#ffffff" />
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17527991666"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18048893670"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              window.dataLayer = window.dataLayer || [];
+               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'AW-17527991666');
+
+              gtag('config', 'AW-18048893670');
             `,
           }}
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              function gtag_report_conversion(url) {
-                var callback = function () {
-                  if (typeof(url) != 'undefined') {
-                    window.location = url;
-                  }
-                };
-                gtag('event', 'conversion', {
-                    'send_to': 'AW-17527991666/LEB7CLientoaEJ6w6YlA',
-                    'value': 1.0,
-                    'currency': 'EUR',
-                    'event_callback': callback
-                });
-                return false;
-              }
-            `,
-          }}
-        />
+        
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
