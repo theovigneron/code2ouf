@@ -102,7 +102,7 @@ export default function RootLayout({
                 }
               };
               gtag('event', 'conversion', {
-                  'send_to': 'AW-18049052511/_ySYCPyYzZEcEOaFsZ5D',
+                  'send_to': 'AW-18049052511/sKlACJni4pEcEN_eup5D',
                   'value': 1.0,
                   'currency': 'EUR',
                   'event_callback': callback
