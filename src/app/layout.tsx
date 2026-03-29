@@ -92,7 +92,17 @@ export default function RootLayout({
             `,
           }}
         />
-        
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              gtag('event', 'conversion', {
+                  'send_to': 'AW-18048893670/_ySYCPyYzZEcEOaFsZ5D',
+                  'value': 1.0,
+                  'currency': 'EUR'
+              });
+            `,
+          }}
+        />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
