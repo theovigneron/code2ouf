@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.card}>
-        <img src="/title.png" alt="Logo Code2Ouf" />
+        <img src="title.png" alt="Logo Code2ouf" className={styles.logo} />
         <h1 className={styles.title}>
           Découvrez HelloFresh avec -90€ sur la première commande&nbsp;!
         </h1>

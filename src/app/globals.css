@@ -1,18 +1,18 @@
 /* Dans globals.css */
 :root {
-  --primary-green: #057A45;
-  --primary-hover: #5fa03e;
-  --accent-purple: rgba(155, 89, 182, 0.4);
-  --accent-green-glow: rgba(39, 174, 96, 0.4);
-  --bg-dark: #0a0a23;
-  --card-bg: rgba(0, 0, 0, 0.5);
-  --code-box-bg: #1f1f2e;
-  --code-tag-bg: #333;
-  --text-main: #ffffff;
-  --text-muted: #eeeeee;
-  --text-label: #cccccc;
-  --card-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
-  --btn-shadow: 0 4px 15px rgba(122, 199, 79, 0.5);
+  --primary-green: #3ba863;       /* Vert menthe vif */
+  --primary-hover: #22c55e;
+  --accent-purple: rgba(74, 222, 128, 0.05);
+  --accent-green-glow: rgba(15, 23, 42, 0.5);
+  --bg-dark: #0f172a;             /* Bleu nuit profond */
+  --card-bg: rgba(30, 41, 59, 0.7); /* Bleu ardoise translucide */
+  --code-box-bg: #1e293b;
+  --code-tag-bg: #334155;
+  --text-main: #f8fafc;
+  --text-muted: #cbd5e1;
+  --text-label: #94a3b8;
+  --card-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  --btn-shadow: 0 10px 15px -3px rgba(74, 222, 128, 0.3);
 }
 
 /* Garde le reste du fichier globals.css tel quel */

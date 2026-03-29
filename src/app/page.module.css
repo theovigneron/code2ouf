@@ -23,9 +23,11 @@
   color: var(--text-main);
 }
 
-.card > img {
+.logo {
   width: 50%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  
+  filter: brightness(0) invert(1);
 }
 
 .title {
