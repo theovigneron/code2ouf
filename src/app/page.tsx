@@ -28,7 +28,7 @@ export default function Home() {
         <button
           className={styles.button}
           onClick={() => {
-              window.location.href = "https://www.hellofresh.fr/pages/value-messaging-raf?c=HS-10YXD21PT";
+              window.location.href = "https://www.hellofresh.fr/plans?c=HS-10YXD21PT";
           }}
         >
           Utiliser l&apos;offre
