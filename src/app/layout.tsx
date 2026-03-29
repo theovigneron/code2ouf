@@ -80,7 +80,7 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#ffffff" />
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18048893670"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18049052511"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -88,7 +88,7 @@ export default function RootLayout({
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
-              gtag('config', 'AW-18048893670');
+              gtag('config', 'AW-18049052511');
             `,
           }}
         />
@@ -102,7 +102,7 @@ export default function RootLayout({
                 }
               };
               gtag('event', 'conversion', {
-                  'send_to': 'AW-18048893670/_ySYCPyYzZEcEOaFsZ5D',
+                  'send_to': 'AW-18049052511/_ySYCPyYzZEcEOaFsZ5D',
                   'value': 1.0,
                   'currency': 'EUR',
                   'event_callback': callback
